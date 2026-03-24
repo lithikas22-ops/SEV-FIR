@@ -20,33 +20,10 @@
 <input id="state" placeholder="State">
 
 <button onclick="saveVictim(function saveVictim() {
-    // Get values from inputs
-    let fname = document.getElementById("fname").value;
-    let lname = document.getElementById("lname").value;
-    let dob = document.getElementById("dob").value;
-    let email = document.getElementById("email").value;
-    let phone = document.getElementById("phone").value;
-    let alt = document.getElementById("alt").value;
-    let address = document.getElementById("address").value;
-    let district = document.getElementById("district").value;
-    let state = document.getElementById("state").value;
+    alert("Button clicked"):
 
-    // Save to localStorage
-    localStorage.setItem("fname", fname);
-    localStorage.setItem("lname", lname);
-    localStorage.setItem("dob", dob);
-    localStorage.setItem("email", email);
-    localStorage.setItem("phone", phone);
-    localStorage.setItem("alt", alt);
-    localStorage.setItem("address", address);
-    localStorage.setItem("district", district);
-    localStorage.setItem("state", state);
-
-    // Check if working
-    alert("Data saved!");
-
-    // Go to next page
     window.location.href = "next.html";
+}
 })">Next</button>
 </div>
 
