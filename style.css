@@ -1,0 +1,30 @@
+body {
+    background: #2f2f2f;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    background: #3a3a3a;
+    padding: 30px;
+    margin: 60px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+input, select {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background: #6b7280;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
