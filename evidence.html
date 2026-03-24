@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Evidence</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+<h2>Evidence Submission</h2>
+
+<input type="file">
+
+<select id="evidenceType">
+<option>Screenshot</option>
+<option>Video</option>
+<option>Document</option>
+<option>Chat Record</option>
+</select>
+
+<button onclick="generatePDF()">Generate FIR Report</button>
+<button onclick="next('thankyou.html')">Submit</button>
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+
+</body>
+</html>
